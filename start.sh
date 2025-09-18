@@ -43,7 +43,7 @@ export DISPLAY=:1
 
 # Start the Flask server in the background
 echo "Starting Flask server..."
-python3 keyboard_controller.py > /dev/null 2>&1 &
+python3 ./keyboard_ctrl_server/main.py > /dev/null 2>&1 &
 FLASK_PID=$!
 
 # Wait for Flask server to start

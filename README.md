@@ -1,6 +1,6 @@
 # Breaking the 4th wall of Playwright
 
-A fully automated, interactive, end-to-end test of the File System Access API, using the [Text-Editor](https://googlechromelabs.github.io/text-editor/) web demo.
+A fully automated, interactive, end-to-end test of the [File System Access API](https://developer.chrome.com/docs/capabilities/web-apis/file-system-access), using the [Text-Editor](https://googlechromelabs.github.io/text-editor/) web demo.
 
 ## Headless run
 

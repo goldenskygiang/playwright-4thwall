@@ -24,8 +24,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy Python requirements and install dependencies
-COPY requirements.txt .
-RUN pip3 install -r requirements.txt
+COPY keyboard_ctrl_server/requirements.txt ./keyboard_ctrl_server/
+RUN pip3 install -r ./keyboard_ctrl_server/requirements.txt
 
 # Copy package.json and install Node.js dependencies
 COPY package.json .
