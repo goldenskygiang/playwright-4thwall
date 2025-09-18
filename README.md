@@ -2,6 +2,23 @@
 
 A fully automated, interactive, end-to-end test of the [File System Access API](https://developer.chrome.com/docs/capabilities/web-apis/file-system-access), using the [Text-Editor](https://googlechromelabs.github.io/text-editor/) web demo.
 
+## Run locally
+
+```sh
+python -m venv venv
+source venv/bin/activate
+pip install -r keyboard_ctrl_server/requirements.txt
+python keyboard_ctrl_server/main.py
+```
+
+Open a new terminal to run the Playwright test separately
+
+```sh
+npm install
+npx playwright install --with-deps
+npx playwright test
+```
+
 ## Headless run
 
 ```sh
