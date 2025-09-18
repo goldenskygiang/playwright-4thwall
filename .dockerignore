@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.env
+.nyc_output
+coverage
+.coverage
+*.pyc
+__pycache__
+.pytest_cache
+.DS_Store
+Thumbs.db
+playwright-report
+test-results
+temp
